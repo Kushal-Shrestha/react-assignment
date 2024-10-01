@@ -1,0 +1,7 @@
+const navLinks = [
+    { href: '/products', label: 'Products' },
+    { href: '/about', label: 'About' },
+    { href: '/contact', label: 'Contact' },
+];
+
+export default navLinks;
