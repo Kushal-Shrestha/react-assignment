@@ -26,6 +26,15 @@ This is a simple React e-commerce product list application that displays product
 
 -The Site is Also Responsive
 
+![alt text](image-4.png)
+
+![alt text](image-5.png)
+
+![alt text](image-6.png)
+
+![alt text](image-7.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
