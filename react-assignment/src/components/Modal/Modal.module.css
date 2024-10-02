@@ -153,3 +153,35 @@
     font-size: larger;
     font-weight: bold;
 }
+
+@media screen and (max-width: 576px) {
+
+    .modalProductContainer {
+        display: inline-block;
+    }
+
+    .modalProductContainer p {
+        font-size: smaller;
+    }
+
+    .modalImageContainer {
+        display: block;
+    }
+
+    .modalImage {
+        height: 10rem;
+    }
+
+    .modalContent {
+        gap: 1rem;
+    }
+
+    .modalFooter {
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .modalAddToCartButton {
+        width: 100%;
+    }
+}

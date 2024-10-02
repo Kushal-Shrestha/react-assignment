@@ -11,6 +11,21 @@
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.293);
 }
 
+@media screen and (max-width: 720px) {
+    .productCard {
+        width: 70%;
+    }
+
+    .productCardFooter {
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+    }
+}
+
+
 .productContainer {
     display: flex;
     padding: 2rem;

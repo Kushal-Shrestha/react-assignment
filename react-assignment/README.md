@@ -1,3 +1,31 @@
+# React E-commerce Product List Application 
+
+This is a simple React e-commerce product list application that displays products that is received from the API. Additional Details of a product can be viewed through a modal, and includes a counter component for entering product quantities.
+
+## Implementation
+
+-Fetches and displays data from a mock API. The Mock API used here is [fakeapistore.com](https://fakestoreapi.com). It provides various features and provided the necessary data for a mock ecommerce application 
+
+-It includes a header component that includes the application's name and a nav bar
+![alt text](image-1.png).
+
+-Implemented a Hero section for styling purposes
+
+-Implemented Loading State and Error States in cases of data fetching
+-Loading State
+![alt text](image-2.png)
+
+-Error States
+![alt text](image-3.png)
+
+-The cards are shown in a list format and contains title, category, Price and a View Details button & Upon clicking the viewing button, the modal is toggleable. 
+
+-Counter Component is Also Added & Error Handling is done by the axios's interceptor itself.
+
+-All the styling mentioned above is done using CSS Modules. 
+
+-The Site is Also Responsive
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -39,32 +67,4 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

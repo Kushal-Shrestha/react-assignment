@@ -7,6 +7,20 @@
     margin-top: 8rem;
 }
 
+@media screen and (max-width: 600px) {
+    .heroImage {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .heroImage h1 {
+        font-size: xx-large;
+    }
+}
+
+
+
+
 .heroImageCard {
     display: flex;
 
